@@ -1,0 +1,43 @@
+com.farmpulse.app-drawerlayout-1.1.1-0 /Users/cateatmars.p/.gradle/caches/transforms-4/10cb0c35fefeb90e5370652bd49f6f05/transformed/drawerlayout-1.1.1/res
+com.farmpulse.app-core-ktx-1.13.1-1 /Users/cateatmars.p/.gradle/caches/transforms-4/134f441c70d87d97aeddb68c0f11f94d/transformed/core-ktx-1.13.1/res
+com.farmpulse.app-startup-runtime-1.1.1-2 /Users/cateatmars.p/.gradle/caches/transforms-4/177575a4888c2e615a2d41b9f0b97be9/transformed/startup-runtime-1.1.1/res
+com.farmpulse.app-savedstate-1.2.1-3 /Users/cateatmars.p/.gradle/caches/transforms-4/352e12b83d0106f1743c8b272776ec6f/transformed/savedstate-1.2.1/res
+com.farmpulse.app-material-1.12.0-4 /Users/cateatmars.p/.gradle/caches/transforms-4/38157657bd84d07d4e6ab4259d2cf00b/transformed/material-1.12.0/res
+com.farmpulse.app-savedstate-ktx-1.2.1-5 /Users/cateatmars.p/.gradle/caches/transforms-4/39c8f0cbb87ca9142f716c94072fb502/transformed/savedstate-ktx-1.2.1/res
+com.farmpulse.app-lifecycle-viewmodel-ktx-2.8.1-6 /Users/cateatmars.p/.gradle/caches/transforms-4/3c9a30dc2b7d50b2faa9f8054ac8d65d/transformed/lifecycle-viewmodel-ktx-2.8.1/res
+com.farmpulse.app-activity-ktx-1.9.0-7 /Users/cateatmars.p/.gradle/caches/transforms-4/47613acf4a6ed462aa62d9bf885f3363/transformed/activity-ktx-1.9.0/res
+com.farmpulse.app-customview-poolingcontainer-1.0.0-8 /Users/cateatmars.p/.gradle/caches/transforms-4/552fa3a7632a044e445c7a1eef489caa/transformed/customview-poolingcontainer-1.0.0/res
+com.farmpulse.app-lifecycle-livedata-core-ktx-2.8.1-9 /Users/cateatmars.p/.gradle/caches/transforms-4/5b179692e3d4293baeb1a8edbfe706d4/transformed/lifecycle-livedata-core-ktx-2.8.1/res
+com.farmpulse.app-transition-1.5.0-10 /Users/cateatmars.p/.gradle/caches/transforms-4/5b93081b3e5cbf2f7adc65fc883ca00c/transformed/transition-1.5.0/res
+com.farmpulse.app-profileinstaller-1.3.1-11 /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/res
+com.farmpulse.app-viewpager2-1.1.0-beta02-12 /Users/cateatmars.p/.gradle/caches/transforms-4/6577dc3bab2f4db0a37ab2c0b639130c/transformed/viewpager2-1.1.0-beta02/res
+com.farmpulse.app-lifecycle-process-2.8.1-13 /Users/cateatmars.p/.gradle/caches/transforms-4/6b12989a2bd2662f50cf8b264d0caab6/transformed/lifecycle-process-2.8.1/res
+com.farmpulse.app-swiperefreshlayout-1.1.0-14 /Users/cateatmars.p/.gradle/caches/transforms-4/6b1671847ad2b2f071f5410a6cf51f47/transformed/swiperefreshlayout-1.1.0/res
+com.farmpulse.app-cardview-1.0.0-15 /Users/cateatmars.p/.gradle/caches/transforms-4/79336d8d827ab056a7193719ff6224b3/transformed/cardview-1.0.0/res
+com.farmpulse.app-core-1.13.1-16 /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/res
+com.farmpulse.app-lifecycle-livedata-ktx-2.8.1-17 /Users/cateatmars.p/.gradle/caches/transforms-4/8140328c55ebbe4cfcde9f5f3fda23aa/transformed/lifecycle-livedata-ktx-2.8.1/res
+com.farmpulse.app-emoji2-views-helper-1.3.0-18 /Users/cateatmars.p/.gradle/caches/transforms-4/8261fcab66061c8632dd791d9e330293/transformed/emoji2-views-helper-1.3.0/res
+com.farmpulse.app-constraintlayout-2.1.4-19 /Users/cateatmars.p/.gradle/caches/transforms-4/867a2909e8a93228726a7f032d775bd9/transformed/constraintlayout-2.1.4/res
+com.farmpulse.app-lifecycle-livedata-core-2.8.1-20 /Users/cateatmars.p/.gradle/caches/transforms-4/8cbd462466cfd7f2e2c80df528dab524/transformed/lifecycle-livedata-core-2.8.1/res
+com.farmpulse.app-annotation-experimental-1.4.0-21 /Users/cateatmars.p/.gradle/caches/transforms-4/982aa1bf1756d377e1ddddaf8e30a53b/transformed/annotation-experimental-1.4.0/res
+com.farmpulse.app-recyclerview-1.3.2-22 /Users/cateatmars.p/.gradle/caches/transforms-4/a644f2f68b243abc1220dab32bae56e8/transformed/recyclerview-1.3.2/res
+com.farmpulse.app-appcompat-resources-1.7.0-23 /Users/cateatmars.p/.gradle/caches/transforms-4/abc2b8be8f51c8baeb72c8d4afb730ac/transformed/appcompat-resources-1.7.0/res
+com.farmpulse.app-appcompat-1.7.0-24 /Users/cateatmars.p/.gradle/caches/transforms-4/b3bf21e02ab0e752143e6f80b573dbb9/transformed/appcompat-1.7.0/res
+com.farmpulse.app-lifecycle-viewmodel-savedstate-2.8.1-25 /Users/cateatmars.p/.gradle/caches/transforms-4/b8fdd8882a649878926c1e3ccd1afc7c/transformed/lifecycle-viewmodel-savedstate-2.8.1/res
+com.farmpulse.app-core-runtime-2.2.0-26 /Users/cateatmars.p/.gradle/caches/transforms-4/bec2570784b967d250024fe5f0d472a9/transformed/core-runtime-2.2.0/res
+com.farmpulse.app-coordinatorlayout-1.1.0-27 /Users/cateatmars.p/.gradle/caches/transforms-4/c3f759d8ca742866528579b5745196a5/transformed/coordinatorlayout-1.1.0/res
+com.farmpulse.app-lifecycle-runtime-ktx-release-28 /Users/cateatmars.p/.gradle/caches/transforms-4/c6d5e11515c22e85316360b85e3b7724/transformed/lifecycle-runtime-ktx-release/res
+com.farmpulse.app-lifecycle-viewmodel-release-29 /Users/cateatmars.p/.gradle/caches/transforms-4/c74f4a0dab7a172fc6926d6d3909ce40/transformed/lifecycle-viewmodel-release/res
+com.farmpulse.app-lifecycle-livedata-2.8.1-30 /Users/cateatmars.p/.gradle/caches/transforms-4/cc7cc860b05a0eb73d802764d0b3c5ab/transformed/lifecycle-livedata-2.8.1/res
+com.farmpulse.app-emoji2-1.3.0-31 /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/res
+com.farmpulse.app-activity-1.9.0-32 /Users/cateatmars.p/.gradle/caches/transforms-4/e9aa9e0a7c6b95401ac9372382db9420/transformed/activity-1.9.0/res
+com.farmpulse.app-lifecycle-runtime-release-33 /Users/cateatmars.p/.gradle/caches/transforms-4/eb3a30b5c162ba0cc1880e3e25dd92bf/transformed/lifecycle-runtime-release/res
+com.farmpulse.app-fragment-ktx-1.8.0-34 /Users/cateatmars.p/.gradle/caches/transforms-4/f632a905fd6ff4853ae9a2e659f2f187/transformed/fragment-ktx-1.8.0/res
+com.farmpulse.app-fragment-1.8.0-35 /Users/cateatmars.p/.gradle/caches/transforms-4/fe19da3b0075728cb61c493738cca8e7/transformed/fragment-1.8.0/res
+com.farmpulse.app-pngs-36 /Users/cateatmars.p/Downloads/FarmPulse 4/app/build/generated/res/pngs/release
+com.farmpulse.app-resValues-37 /Users/cateatmars.p/Downloads/FarmPulse 4/app/build/generated/res/resValues/release
+com.farmpulse.app-packageReleaseResources-38 /Users/cateatmars.p/Downloads/FarmPulse 4/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.farmpulse.app-packageReleaseResources-39 /Users/cateatmars.p/Downloads/FarmPulse 4/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.farmpulse.app-release-40 /Users/cateatmars.p/Downloads/FarmPulse 4/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.farmpulse.app-main-41 /Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/res
+com.farmpulse.app-release-42 /Users/cateatmars.p/Downloads/FarmPulse 4/app/src/release/res

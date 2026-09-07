@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_card_rounded"
+    android:backgroundTint="@color/leaf_card"
+    android:padding="14dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvStatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="86dp"
+        android:textColor="@color/leaf_deep"
+        android:fontFamily="@font/sarabun_bold"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvStatCaption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/ink"
+        android:textSize="12.5sp"
+        android:lineSpacingMultiplier="1.25" />
+
+</LinearLayout>

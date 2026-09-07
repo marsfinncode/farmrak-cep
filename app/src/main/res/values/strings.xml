@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FarmRak: ฟาร์มรักษ์</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_dashboard">หน้าหลัก</string>
+    <string name="nav_history">ประวัติ</string>
+    <string name="nav_settings">ตั้งค่า</string>
+
+    <!-- Dashboard -->
+    <string name="greeting">สวัสดี คุณสมชาย</string>
+    <string name="zone_label">แปลงผัก · โซน 1</string>
+    <string name="refresh">รับข้อมูลใหม่</string>
+    <string name="soil_moisture_label">ความชื้นในดิน</string>
+    <string name="ph_label">ระดับกรด–ด่าง (pH)</string>
+    <string name="pump_label">ปั๊มน้ำ</string>
+    <string name="fert_label">ระบบให้ปุ๋ย</string>
+    <string name="signal_label">สัญญาณ ESP32</string>
+    <string name="battery_label">แบตเตอรี่</string>
+    <string name="auto_mode_title">โหมดอัตโนมัติ</string>
+    <string name="auto_mode_sub">รดน้ำ/ให้ปุ๋ยเองเมื่อค่าต่ำกว่าเกณฑ์</string>
+    <string name="water_now">รดน้ำทันที</string>
+    <string name="stop_water">หยุดรดน้ำ</string>
+    <string name="fert_now">ให้ปุ๋ยทันที</string>
+    <string name="stop_fert">หยุดให้ปุ๋ย</string>
+    <string name="manual_note">ปิดโหมดอัตโนมัติก่อน จึงจะสั่งรดน้ำหรือให้ปุ๋ยด้วยตัวเองได้</string>
+    <string name="status_on">เปิดอยู่</string>
+    <string name="status_off">ปิดอยู่</string>
+    <string name="status_not_connected">ไม่ได้เชื่อมต่อ</string>
+    <string name="no_data_yet">ยังไม่มีข้อมูล — รอเชื่อมต่อบอร์ด</string>
+    <string name="not_connected">ยังไม่เชื่อมต่อ ESP32</string>
+
+    <!-- Board time sync -->
+    <string name="board_time_label">เวลาบนบอร์ด: %1$s น.</string>
+    <string name="sync_time_button">ซิงค์เวลา</string>
+    <string name="sync_time_success">ซิงค์เวลาแล้ว</string>
+    <string name="sync_time_failed">ซิงค์เวลาไม่สำเร็จ ลองใหม่อีกครั้ง</string>
+    <string name="connected">เชื่อมต่อแล้ว</string>
+    <string name="connecting">กำลังเชื่อมต่อ…</string>
+    <string name="reconnecting">เน็ตหลุด กำลังเชื่อมต่อใหม่…</string>
+
+    <!-- Command feedback -->
+    <string name="command_water_success">ส่งคำสั่งรดน้ำสำเร็จแล้ว</string>
+    <string name="command_water_fail">ส่งคำสั่งไม่สำเร็จ — ยังไม่ได้เชื่อมต่อกับบอร์ด</string>
+    <string name="command_fert_success">ส่งคำสั่งให้ปุ๋ยสำเร็จแล้ว</string>
+    <string name="command_fert_fail">ส่งคำสั่งไม่สำเร็จ — ยังไม่ได้เชื่อมต่อกับบอร์ด</string>
+
+    <!-- Fertilizer Under Development (Coming Soon) Dialog -->
+    <string name="fert_coming_soon_title">ระบบให้ปุ๋ยอัตโนมัติ</string>
+    <string name="fert_coming_soon_badge">กำลังพัฒนา · แผนเฟสถัดไป</string>
+    <string name="fert_coming_soon_sub">ฟีเจอร์นี้อยู่ในแผนพัฒนาเฟสถัดไป เนื่องจากวงจรและปั๊มปุ๋ยยังไม่ได้ติดตั้งในบอร์ดเวอร์ชันปัจจุบัน</string>
+    <string name="fert_coming_soon_point1_title">1. สถานะวงจรฮาร์ดแวร์ปัจจุบัน</string>
+    <string name="fert_coming_soon_point1_desc">บอร์ดเวอร์ชันนี้เน้นความเสถียรของระบบวัดความชื้น/pH และการรดน้ำอัตโนมัติเป็นหลักก่อน วงจรสำหรับปั๊มปุ๋ยจึงยังไม่ได้ต่อใช้งานจริง</string>
+    <string name="fert_coming_soon_point2_title">2. สิ่งที่จะทำได้ในอนาคต</string>
+    <string name="fert_coming_soon_point2_desc">เมื่อติดตั้งปั๊มปุ๋ยและถังสารละลายเพิ่มเติม ระบบจะคำนวณและจ่ายปุ๋ยบำรุงตามชนิดพืชที่คุณเลือกในตำราพืชให้อัตโนมัติ</string>
+    <string name="fert_coming_soon_point3_title">3. คำแนะนำการดูแลตอนนี้</string>
+    <string name="fert_coming_soon_point3_desc">แนะนำให้ใส่ปุ๋ยคอก/ปุ๋ยหมักตามรอบที่ระบุในเมนู "ตำราพืช" และใช้แอป FarmRak ดูระดับ pH เพื่อให้พืชดูดซึมธาตุอาหารได้ดีที่สุด</string>
+    <string name="fert_coming_soon_got_it">เข้าใจแล้ว</string>
+
+    <!-- Connection help dialog -->
+    <string name="connection_help_title">วิธีเชื่อมต่อแอปกับบอร์ด</string>
+    <string name="connection_help_step1_title">1. เปิดไฟบอร์ด ESP32</string>
+    <string name="connection_help_step1_desc">เสียบปลั๊กไฟให้บอร์ดทำงาน รอสักครู่จนบอร์ดเปิด WiFi ของตัวเอง</string>
+    <string name="connection_help_step2_title">2. ต่อ WiFi มือถือไปที่บอร์ด</string>
+    <string name="connection_help_step2_desc">เปิดการตั้งค่า WiFi ของมือถือ (นอกแอป) แล้วเลือกเชื่อมต่อ WiFi ชื่อ “FarmRak-Board”</string>
+    <string name="connection_help_step3_title">3. ตรวจสอบ IP บอร์ดในแอป</string>
+    <string name="connection_help_step3_desc">ไปที่หน้า “ตั้งค่า” เช็คว่าช่อง IP บอร์ดเป็น 192.168.4.1</string>
+    <string name="connection_help_step4_title">4. กดปุ่มอัปเดต</string>
+    <string name="connection_help_step4_desc">กลับมาหน้าหลัก แล้วกดปุ่ม “อัปเดต” มุมขวาบนอีกครั้ง</string>
+    <string name="connection_help_got_it">เข้าใจแล้ว</string>
+
+    <!-- History -->
+    <string name="history_title">ประวัติย้อนหลัง</string>
+    <string name="history_sub">ค่าที่บันทึกล่าสุด</string>
+    <string name="event_log">บันทึกเหตุการณ์</string>
+    <string name="clear_log">ล้าง log</string>
+    <string name="no_logs_yet">ยังไม่มีเหตุการณ์บันทึกไว้</string>
+    <string name="clear_log_confirm_title">ล้าง log ทั้งหมดใช่ไหม</string>
+    <string name="clear_log_confirm_message">ประวัติเหตุการณ์ทั้งหมดจะถูกลบออก (กราฟความชื้น/pH ไม่ถูกลบ) ไม่สามารถกู้คืนได้</string>
+    <string name="log_cleared_toast">ล้าง log แล้ว</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ตั้งค่า</string>
+    <string name="settings_sub">เกณฑ์การทำงานและการเชื่อมต่อ</string>
+    <string name="board_ip_label">ที่อยู่ IP บอร์ด (ปกติไม่ต้องกรอก)</string>
+    <string name="board_ip_sub">แอปจะค้นหาบอร์ดให้เองอัตโนมัติ ไม่ว่าจะต่อ WiFi ของบอร์ดหรือ WiFi บ้านอยู่ก็ตาม — กรอกตรงนี้เฉพาะกรณีที่หาไม่เจอเท่านั้น</string>
+    <string name="board_connected_via">กำลังเชื่อมต่อผ่าน %1$s</string>
+    <string name="board_searching">กำลังค้นหาบอร์ด…</string>
+    <string name="board_ip_required_error">กรุณากรอกที่อยู่ IP บอร์ดก่อนนะครับ</string>
+    <string name="board_wifi_title">ตั้งค่า WiFi บอร์ด</string>
+    <string name="board_wifi_sub">ให้บอร์ดเชื่อมต่อ WiFi บ้าน/ไร่ของคุณเพิ่มเติม (ใช้ได้ในระยะ WiFi นั้นโดยไม่ต้องต่อ WiFi ของบอร์ดโดยตรง)</string>
+    <string name="board_wifi_ssid_hint">ชื่อ WiFi บ้าน/ไร่</string>
+    <string name="board_wifi_password_hint">รหัสผ่าน WiFi</string>
+    <string name="save_board_wifi">บันทึกและเชื่อมต่อ</string>
+    <string name="board_wifi_saving">กำลังส่งค่าไปที่บอร์ด…</string>
+    <string name="board_wifi_save_failed">ส่งค่าไปบอร์ดไม่สำเร็จ — เช็คว่ายังต่อ WiFi ของบอร์ดอยู่ไหม</string>
+    <string name="board_wifi_checking">กำลังตรวจสอบสถานะ…</string>
+    <string name="board_wifi_connected">เชื่อมต่อ "%1$s" สำเร็จแล้ว (IP: %2$s)</string>
+    <string name="board_wifi_not_connected_yet">ยังเชื่อมต่อ "%1$s" ไม่สำเร็จ กำลังลองใหม่เรื่อยๆ</string>
+    <string name="board_wifi_none_configured">ยังไม่ได้ตั้งค่า WiFi บ้าน/ไร่</string>
+    <string name="board_wifi_ssid_required_error">กรุณากรอกชื่อ WiFi ก่อนนะครับ</string>
+    <string name="settings_save_failed">บันทึกการตั้งค่าไม่สำเร็จ ลองใหม่อีกครั้ง</string>
+    <string name="profile_save_failed">บันทึกข้อมูลส่วนตัวไม่สำเร็จ ลองใหม่อีกครั้ง</string>
+    <string name="preset_label">เลือกพืชที่ปลูก</string>
+    <string name="preset_sub">เลือกพืชแล้วระบบจะตั้งค่าความชื้นและ pH ที่เหมาะสมให้อัตโนมัติ</string>
+    <string name="preset_hint">พืชที่ปลูก</string>
+    <string name="preset_custom">กำหนดเอง</string>
+    <string name="preset_applied">ตั้งค่าตาม %1$s แล้ว — ความชื้น %2$d%%, pH %3$.1f–%4$.1f</string>
+    <string name="preset_custom_info">คุณปรับค่าเอง (ไม่ตรงกับพืชใดในตำราพืชแล้ว)</string>
+    <string name="moisture_threshold">ความชื้นขั้นต่ำก่อนรดน้ำ</string>
+    <string name="ph_min">ค่า pH ต่ำสุดที่ยอมรับได้</string>
+    <string name="ph_max">ค่า pH สูงสุดที่ยอมรับได้</string>
+    <string name="save_settings">บันทึกการตั้งค่า</string>
+    <string name="section_personal_info">ข้อมูลส่วนตัว</string>
+    <string name="section_automation">ตั้งค่าระบบอัตโนมัติ</string>
+    <string name="section_board">ตั้งค่าบอร์ด</string>
+    <string name="save_thresholds_button">บันทึกเกณฑ์อัตโนมัติ</string>
+    <string name="save_board_ip_button">บันทึกที่อยู่ IP</string>
+    <string name="saved_toast">บันทึกการตั้งค่าแล้ว</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">ยินดีต้อนรับสู่ FarmPulse</string>
+    <string name="onboarding_sub">ก่อนเริ่มใช้งาน ขอทราบข้อมูลเล็กน้อยครับ</string>
+    <string name="name_label">อยากให้ระบบเรียกคุณว่าอะไร</string>
+    <string name="name_hint">เช่น คุณสมชาย</string>
+    <string name="occupation_label">อาชีพ</string>
+    <string name="occupation_hint">เช่น เกษตรกร, ชาวสวน</string>
+    <string name="years_label">ทำเกษตรมาแล้วกี่ปี</string>
+    <string name="years_hint">เช่น 10</string>
+    <string name="start_using_app">เริ่มใช้งาน</string>
+    <string name="skip_for_now">ข้ามขั้นตอนนี้</string>
+    <string name="name_required_error">กรุณากรอกชื่อก่อนนะครับ</string>
+    <string name="tap_to_add_photo">แตะเพื่อเพิ่มรูป</string>
+    <string name="community_program_label">โครงการ Community Engagement Program ปีที่ 2</string>
+
+    <!-- Profile section in Settings -->
+    <string name="profile_section_title">ข้อมูลส่วนตัว</string>
+    <string name="save_profile">บันทึกข้อมูลส่วนตัว</string>
+    <string name="profile_saved_toast">บันทึกข้อมูลส่วนตัวแล้ว</string>
+
+    <!-- About app -->
+    <string name="about_app_title">เกี่ยวกับโครงการ</string>
+    <string name="about_history_title">ความเป็นมา</string>
+    <string name="about_references_title">เอกสารอ้างอิง</string>
+    <string name="about_tagline">เทคโนโลยีที่เกษตรกรสร้างเองได้
+ดูแลเองได้ และส่งต่อได้</string>
+    <string name="about_problem_heading">ปัญหาที่เราเห็น</string>
+    <string name="about_gap_heading">ช่องว่างที่ยังไม่มีใครแก้</string>
+    <string name="about_solution_heading">สิ่งที่เราทำ</string>
+    <string name="about_advisors_title">ครูที่ปรึกษาโครงการ</string>
+    <string name="about_program_title">โครงการ</string>
+
+    <!-- Tutorial (วิธีใช้) -->
+    <string name="tutorial_used_before_title">คุณเคยใช้แอป FarmRak มาก่อนหรือไม่</string>
+    <string name="tutorial_used_before_message">ถ้ายังไม่เคย เดี๋ยวเราจะพาทัวร์ฟีเจอร์หลักๆ ให้ดูก่อนใช้งานจริงครับ</string>
+    <string name="tutorial_used_before_yes">เคยใช้แล้ว</string>
+    <string name="tutorial_used_before_no">ยังไม่เคยใช้</string>
+    <string name="tutorial_skip">ข้าม</string>
+    <string name="tutorial_prev">ย้อนกลับ</string>
+    <string name="tutorial_next">ถัดไป</string>
+    <string name="tutorial_done">เสร็จสิ้น</string>
+    <string name="tutorial_step_counter">ขั้นตอน %1$d / %2$d</string>
+    <string name="tutorial_menu_title">วิธีใช้แอป</string>
+    <string name="tutorial_menu_sub">ดูทัวร์แนะนำฟีเจอร์หลักอีกครั้ง</string>
+    
+    <string name="manual_menu_title">คู่มือใช้งานระบบ</string>
+    <string name="manual_menu_sub">เปิดอ่านคู่มือแบบละเอียด</string>
+
+    <string name="tutorial_step1_title">ยินดีต้อนรับสู่ FarmRak</string>
+    <string name="tutorial_step1_desc">เดี๋ยวเราจะพาไปรู้จักฟีเจอร์หลักๆ ของแอปแบบเร็วๆ กันครับ</string>
+    <string name="tutorial_step2_title">หน้าหลักของคุณ</string>
+    <string name="tutorial_step2_desc">แสดงชื่อและสถานะการเชื่อมต่อกับบอร์ดของคุณ</string>
+    <string name="tutorial_step3_title">ความชื้นในดิน</string>
+    <string name="tutorial_step3_desc">ค่าความชื้นล่าสุดจากเซนเซอร์ พร้อมบอกว่าควรรดน้ำหรือยัง</string>
+    <string name="tutorial_step4_title">โหมดอัตโนมัติ</string>
+    <string name="tutorial_step4_desc">เปิดไว้ให้ระบบรดน้ำ/ให้ปุ๋ยเองตามเกณฑ์ที่ตั้งไว้ ปิดก่อนถ้าอยากสั่งเอง</string>
+    <string name="tutorial_step5_title">รดน้ำด้วยตนเอง</string>
+    <string name="tutorial_step5_desc">ปิดโหมดอัตโนมัติก่อน แล้วกดปุ่มนี้เพื่อรดน้ำได้ทันที</string>
+    <string name="tutorial_step6_title">ประวัติย้อนหลัง</string>
+    <string name="tutorial_step6_desc">ดูกราฟความชื้น/pH และบันทึกเหตุการณ์ที่ผ่านมาทั้งหมดได้ที่นี่</string>
+    <string name="tutorial_step7_title">ตำราพืช</string>
+    <string name="tutorial_step7_desc">ค้นหาข้อมูลพืชที่ปลูก หรือกดปุ่มด้านล่างเพื่อเพิ่มพืชของคุณเอง</string>
+    <string name="tutorial_step8_title">ตั้งค่าบอร์ด</string>
+    <string name="tutorial_step8_desc">ตั้งค่า IP ของบอร์ดและเกณฑ์การทำงานอัตโนมัติได้ที่นี่ — เสร็จแล้ว ลองใช้งานจริงได้เลยครับ</string>
+
+    <string name="tutorial_step_ph_title">ค่า pH ในดิน</string>
+    <string name="tutorial_step_ph_desc">ถ้าค่าผิดปกติ ตัวเลขจะเปลี่ยนเป็นสีแดง (เป็นกรดเกินไป) หรือสีส้ม (เป็นด่างเกินไป) ให้สังเกตเห็นได้ทันที</string>
+    <string name="tutorial_step_synctime_title">ซิงค์เวลาบอร์ด</string>
+    <string name="tutorial_step_synctime_desc">กดปุ่มนี้เพื่อตั้งเวลาบอร์ดให้ตรงกับมือถือ จำเป็นมากสำหรับให้ตารางให้ปุ๋ยทำงานตรงเวลา</string>
+    <string name="tutorial_step_autowater_title">ตั้งค่ารดน้ำอัตโนมัติ</string>
+    <string name="tutorial_step_autowater_desc">ลากแถบนี้กำหนดว่าความชื้นต่ำกว่ากี่% ถึงจะเริ่มรดน้ำเอง — ตั้งสูงถ้าอยากให้ดินชื้นตลอดเวลา ตั้งต่ำถ้าอยากประหยัดน้ำมากขึ้น</string>
+    <string name="tutorial_step_fertschedule_title">ตารางให้ปุ๋ยอัตโนมัติ (ใหม่!)</string>
+    <string name="tutorial_step_fertschedule_desc">กดปุ่มนี้เพื่อตั้งเวลาและระยะเวลาที่ต้องการให้ปุ๋ย เพิ่มได้หลายช่วง บอร์ดจะให้ปุ๋ยตรงเวลาให้เองแม้ปิดแอปไปแล้ว</string>
+    <string name="tutorial_step_board_final_title">ตั้งค่าบอร์ด</string>
+    <string name="tutorial_step_board_final_desc">ตั้งค่า IP บอร์ด และ WiFi บ้าน/ไร่ได้ในหมวดนี้ — เสร็จแล้ว ลองใช้งานจริงได้เลยครับ</string>
+    <string name="about_team_title">ผู้จัดทำโครงการ</string>
+
+    <!-- Plants (ตำราพืช) -->
+    <string name="nav_plants">ตำราพืช</string>
+    <string name="plants_title">ตำราพืช</string>
+    <string name="plants_sub">ข้อมูลพืชสวนครัวไทยสำหรับเกษตรอินทรีย์</string>
+    <string name="search_plant_hint">ค้นหาชื่อพืช…</string>
+    <string name="plants_no_results">ไม่พบพืชที่ค้นหา</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="plant_characteristics_title">ลักษณะพืช</string>
+    <string name="plant_ph_label">ค่า pH ที่เหมาะสม</string>
+    <string name="plant_moisture_label">ความชื้นดินที่เหมาะสม</string>
+    <string name="plant_fertilizer_label">ปุ๋ยที่แนะนำ</string>
+    <string name="plant_references_title">บรรณานุกรม / อ่านเพิ่มเติม</string>
+
+    <!-- Custom plant add/edit -->
+    <string name="add_plant_title">เพิ่มพืชของตัวเอง</string>
+    <string name="edit_plant_title">แก้ไขพืช</string>
+    <string name="plant_name_field_label">ชื่อพืช</string>
+    <string name="plant_name_field_hint">เช่น มะม่วง, ผักกาดขาว</string>
+    <string name="plant_scientific_field_label">ชื่อวิทยาศาสตร์ (ถ้ามี)</string>
+    <string name="plant_scientific_field_hint">ไม่บังคับกรอก</string>
+    <string name="plant_category_field_label">หมวดพืช</string>
+    <string name="plant_description_field_label">ลักษณะพืช</string>
+    <string name="plant_description_field_hint">อธิบายลักษณะพืชสั้นๆ</string>
+    <string name="plant_ph_range_label">ช่วงค่า pH ที่เหมาะสม</string>
+    <string name="plant_moisture_range_label">ช่วงความชื้นที่เหมาะสม (%)</string>
+    <string name="plant_min_hint">ต่ำสุด</string>
+    <string name="plant_max_hint">สูงสุด</string>
+    <string name="plant_fertilizer_field_label">ปุ๋ยที่แนะนำ</string>
+    <string name="plant_fertilizer_field_hint">เช่น ปุ๋ยคอก ปุ๋ยหมัก ใส่ทุกกี่สัปดาห์</string>
+    <string name="save_plant">บันทึกพืช</string>
+    <string name="delete_plant">ลบพืชนี้</string>
+    <string name="add_new_plant">เพิ่มพืชของตัวเอง</string>
+    <string name="plant_name_required_error">กรุณากรอกชื่อพืชก่อนนะครับ</string>
+    <string name="delete_plant_confirm_title">ลบพืชนี้ใช่ไหม</string>
+    <string name="delete_plant_confirm_message">ข้อมูลพืชนี้จะถูกลบออกถาวร ไม่สามารถกู้คืนได้</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="plant_saved_toast">บันทึกพืชแล้ว</string>
+    <string name="plant_deleted_toast">ลบพืชแล้ว</string>
+    <string name="plant_save_failed">บันทึกไม่สำเร็จ ลองใหม่อีกครั้ง</string>
+    <string name="plant_delete_failed">ลบไม่สำเร็จ ลองใหม่อีกครั้ง</string>
+    <string name="plant_ph_invalid_error">กรอกเป็นตัวเลข</string>
+    <string name="plant_ph_range_invalid_error">ค่าต่ำสุดต้องน้อยกว่าค่าสูงสุด</string>
+    <string name="plant_moisture_invalid_error">กรอกเป็นตัวเลข</string>
+    <string name="plant_moisture_range_invalid_error">ค่าต่ำสุดต้องน้อยกว่าค่าสูงสุด</string>
+    <!-- Fertilizer schedule -->
+    <string name="fert_schedule_title">ตารางให้ปุ๋ยอัตโนมัติ</string>
+    <string name="fert_schedule_sub">กำหนดเวลาและระยะเวลาที่ระบบจะให้ปุ๋ยเองอัตโนมัติ เพิ่มได้หลายช่วง</string>
+    <string name="add_fert_schedule">+ เพิ่มช่วงเวลา</string>
+    <string name="add_fert_schedule_title">เพิ่มช่วงเวลาให้ปุ๋ย</string>
+    <string name="fert_duration_label">ให้ปุ๋ยนานกี่นาที</string>
+    <string name="fert_duration_hint">เช่น 10</string>
+    <string name="save_schedule">บันทึก</string>
+    <string name="fert_duration_required_error">กรุณากรอกระยะเวลาก่อนนะครับ</string>
+    <string name="no_fert_schedule_yet">ยังไม่ได้ตั้งช่วงเวลาให้ปุ๋ย</string>
+    <string name="fert_schedule_duration_format">นาน %1$d นาที</string>
+    <string name="fert_schedule_saved_toast">เพิ่มช่วงเวลาแล้ว</string>
+    <string name="fert_schedule_deleted_toast">ลบช่วงเวลาแล้ว</string>
+    <string name="fert_schedule_sync_failed">บันทึกในเครื่องแล้ว แต่ส่งไปที่บอร์ดไม่สำเร็จ — เชื่อมต่อบอร์ดแล้วลองใหม่อีกครั้ง</string>
+
+    <!-- Onboarding -->
+
+    <!-- Profile section in Settings -->
+
+    <!-- About app -->
+
+    <!-- Tutorial (วิธีใช้) -->
+
+
+    <!-- Plants (ตำราพืช) -->
+
+    <!-- Custom plant add/edit -->
+</resources>

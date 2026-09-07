@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history_title"
+        android:textColor="@color/ink"
+        android:textSize="20sp"
+        android:fontFamily="@font/sarabun_bold"
+            android:textStyle="bold"
+        android:layout_marginBottom="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/surface"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_moisture_label"
+            android:textColor="@color/ink"
+            android:fontFamily="@font/sarabun_bold"
+            android:textSize="13.5sp" />
+
+        <com.farmpulse.app.ui.widget.SparklineView
+            android:id="@+id/sparklineMoisture"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/surface"
+        android:padding="16dp"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ph_label"
+            android:textColor="@color/ink"
+            android:fontFamily="@font/sarabun_bold"
+            android:textSize="13.5sp" />
+
+        <com.farmpulse.app.ui.widget.SparklineView
+            android:id="@+id/sparklinePh"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/event_log"
+            android:textColor="@color/ink"
+            android:textSize="15sp"
+            android:fontFamily="@font/sarabun_bold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnClearLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_log"
+            android:textColor="@color/rust"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textSize="13sp"
+            android:padding="6dp"
+            android:foreground="?attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:id="@+id/tvNoLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_logs_yet"
+        android:textColor="@color/ink_soft"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>
+</ScrollView>

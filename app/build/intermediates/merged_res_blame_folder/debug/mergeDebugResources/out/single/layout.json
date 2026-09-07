@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/item_about_stat.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_about_stat.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/fragment_history.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/activity_onboarding.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/item_dropdown.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/activity_manual.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_manual.xml"
+    },
+    {
+        "merged": "com.farmpulse.app-mergeDebugResources-39:/layout/fragment_manual.xml",
+        "source": "com.farmpulse.app-main-42:/layout/fragment_manual.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/fragment_dashboard.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/dialog_fertilizer_coming_soon.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_fertilizer_coming_soon.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/activity_splash.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/fragment_plants.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_plants.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/item_fertilizer_schedule.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_fertilizer_schedule.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/dialog_add_fertilizer_schedule.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_add_fertilizer_schedule.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/item_log.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_log.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/item_plant.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_plant.xml"
+    },
+    {
+        "merged": "com.farmpulse.app-mergeDebugResources-39:/layout/fragment_settings.xml",
+        "source": "com.farmpulse.app-main-42:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/fragment_settings.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/dialog_connection_help.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_connection_help.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_main.xml"
+    }
+]

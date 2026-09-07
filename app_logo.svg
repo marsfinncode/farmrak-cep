@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 108 108">
+    <!-- Background -->
+    <path fill="#3A2A1B" d="M0,0h108v108h-108z" />
+    
+    <!-- Foreground -->
+    <path fill="none" stroke="#8FBC6B" stroke-width="6" stroke-linecap="round" d="M54,78 V52" />
+    <path fill="#8FBC6B" d="M54,52 C54,52 34,50 34,30 C34,30 54,28 54,52 Z" />
+    <path fill="#4F7A3E" d="M54,52 C54,52 74,50 74,30 C74,30 54,28 54,52 Z" />
+</svg>

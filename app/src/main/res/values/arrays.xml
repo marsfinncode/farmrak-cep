@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="occupation_options">
+        <item>เกษตรกร (ทำนา/ทำไร่)</item>
+        <item>ชาวสวน</item>
+        <item>ปศุสัตว์ (เลี้ยงสัตว์)</item>
+        <item>ประมง / เพาะเลี้ยงสัตว์น้ำ</item>
+        <item>ผู้ดูแลแปลงเกษตรให้ผู้อื่น</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+    <string-array name="experience_options">
+        <item>ไม่มีประสบการณ์เลย</item>
+        <item>มีประสบการณ์เล็กน้อย (ไม่ถึง 1 ปี)</item>
+        <item>มีประสบการณ์ปานกลาง (1–5 ปี)</item>
+        <item>มีประสบการณ์มาก (5–10 ปี)</item>
+        <item>มีประสบการณ์มาก (มากกว่า 10 ปี)</item>
+    </string-array>
+</resources>

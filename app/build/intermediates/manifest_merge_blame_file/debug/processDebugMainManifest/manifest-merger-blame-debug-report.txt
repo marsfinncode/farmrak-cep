@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.farmpulse.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:6:5-77
+13-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:7:5-77
+14-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+15-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:8:5-94
+15-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:8:22-91
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+18        android:name="com.farmpulse.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.farmpulse.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:10:5-44:19
+24        android:allowBackup="true"
+24-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.13.1] /Users/cateatmars.p/.gradle/caches/transforms-4/7e9ca8f09566db3bb55fec151985c041/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:13:9-41
+30        android:supportsRtl="true"
+30-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.FarmPulse"
+32-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:14:9-47
+33        android:usesCleartextTraffic="true" >
+33-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:15:9-44
+34        <activity
+34-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:18:9-27:20
+35            android:name="com.farmpulse.app.SplashActivity"
+35-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:19:13-43
+36            android:exported="true"
+36-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:22:13-36
+37            android:screenOrientation="portrait"
+37-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:21:13-49
+38            android:theme="@style/Theme.FarmPulse.Splash" >
+38-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:20:13-58
+39            <intent-filter>
+39-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:23:13-26:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:24:17-69
+40-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:25:17-77
+42-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:25:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:29:9-32:40
+46            android:name="com.farmpulse.app.MainActivity"
+46-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:30:13-41
+47            android:exported="false"
+47-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:32:13-37
+48            android:screenOrientation="portrait" />
+48-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:31:13-49
+49        <activity
+49-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:34:9-37:40
+50            android:name="com.farmpulse.app.OnboardingActivity"
+50-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:35:13-47
+51            android:exported="false"
+51-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:37:13-37
+52            android:screenOrientation="portrait" />
+52-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:36:13-49
+53
+54        <service
+54-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:40:9-43:40
+55            android:name="com.farmpulse.app.notification.BoardMonitorService"
+55-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:41:13-61
+56            android:exported="false"
+56-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:43:13-37
+57            android:foregroundServiceType="connectedDevice" />
+57-->/Users/cateatmars.p/Downloads/FarmPulse 4/app/src/main/AndroidManifest.xml:42:13-60
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.farmpulse.app.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/cateatmars.p/.gradle/caches/transforms-4/d2fdf61206d5e8b9692514a7addd0d08/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/cateatmars.p/.gradle/caches/transforms-4/6b12989a2bd2662f50cf8b264d0caab6/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/cateatmars.p/.gradle/caches/transforms-4/6b12989a2bd2662f50cf8b264d0caab6/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/cateatmars.p/.gradle/caches/transforms-4/6b12989a2bd2662f50cf8b264d0caab6/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/cateatmars.p/.gradle/caches/transforms-4/5c892ac35fd54857ad50829e9e767b49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

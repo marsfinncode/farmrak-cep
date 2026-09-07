@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/paper"
+    android:padding="18dp">
+
+    <!-- Top bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGreeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/greeting"
+                android:textColor="@color/ink"
+                android:textSize="20sp"
+                android:fontFamily="@font/sarabun_bold"
+            android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="4dp">
+
+                <View
+                    android:id="@+id/dotConnectionStatus"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:background="@drawable/bg_avatar_placeholder"
+                    android:backgroundTint="@color/rust"
+                    android:layout_marginEnd="6dp" />
+
+                <TextView
+                    android:id="@+id/tvConnectionStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_connected"
+                    android:textColor="@color/ink_soft"
+                    android:textSize="12.5sp" />
+
+                <TextView
+                    android:id="@+id/btnConnectionHelp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/bg_avatar_placeholder"
+                    android:backgroundTint="@color/rust"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clipToOutline="true"
+                    android:text="?"
+                    android:textColor="@color/paper"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:contentDescription="@string/connection_help_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boardTimeRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/tvBoardTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/ink_soft"
+                    android:textSize="11.5sp" />
+
+                <TextView
+                    android:id="@+id/btnSyncTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/sync_time_button"
+                    android:textColor="@color/water"
+                    android:fontFamily="@font/sarabun_semibold"
+                    android:textSize="11.5sp"
+                    android:padding="4dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textColor="@color/paper"
+            android:backgroundTint="@color/ink" />
+    </LinearLayout>
+
+    <!-- Soil moisture card (soft water tint) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card_rounded"
+        android:backgroundTint="@color/water_card"
+        android:padding="18dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_moisture_label"
+            android:textColor="@color/water"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textSize="14.5sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvMoistureValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textColor="@color/ink"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tvMoistureDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data_yet"
+            android:textColor="@color/ink_soft"
+            android:textSize="13.5sp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- pH card (soft leaf tint) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card_rounded"
+        android:backgroundTint="@color/leaf_card"
+        android:padding="18dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ph_label"
+            android:textColor="@color/leaf_deep"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textSize="14.5sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvPhValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textColor="@color/ink"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tvPhDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data_yet"
+            android:textColor="@color/ink_soft"
+            android:textSize="13.5sp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Status chips -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:id="@+id/tvPumpChip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/surface"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pump_label"
+                android:textColor="@color/ink_soft"
+                android:textSize="11.5sp" />
+
+            <TextView
+                android:id="@+id/tvPumpStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_off"
+                android:textColor="@color/ink"
+                android:fontFamily="@font/sarabun_semibold"
+                android:textSize="14sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvFertChip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/surface"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fert_label"
+                android:textColor="@color/ink_soft"
+                android:textSize="11.5sp" />
+
+            <TextView
+                android:id="@+id/tvFertStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_off"
+                android:textColor="@color/ink"
+                android:fontFamily="@font/sarabun_semibold"
+                android:textSize="14sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Auto mode + manual controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card_rounded"
+        android:backgroundTint="@color/surface"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_mode_title"
+                    android:textColor="@color/ink"
+                    android:fontFamily="@font/sarabun_semibold"
+                    android:textSize="14.5sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_mode_sub"
+                    android:textColor="@color/ink_soft"
+                    android:textSize="11.5sp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchAutoMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:thumbTint="@color/surface"
+                app:trackTint="@color/switch_track_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp">
+
+            <Button
+                android:id="@+id/btnWater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:text="@string/water_now"
+                android:textAllCaps="false"
+                android:fontFamily="@font/sarabun_semibold"
+                android:textColor="@color/paper"
+                android:backgroundTint="@color/water" />
+
+            <Button
+                android:id="@+id/btnFertilizer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:text="@string/fert_now"
+                android:textAllCaps="false"
+                android:fontFamily="@font/sarabun_semibold"
+                android:textColor="@color/paper"
+                android:backgroundTint="@color/leaf" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manual_note"
+            android:textColor="@color/ink_soft"
+            android:textSize="11sp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

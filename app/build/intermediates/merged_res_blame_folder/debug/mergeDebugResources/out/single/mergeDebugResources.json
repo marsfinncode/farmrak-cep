@@ -1,0 +1,446 @@
+[
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_garlic.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_garlic.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_chevron_right.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_search.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_pill_soft.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_pill_soft.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_fragment_history.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_coriander.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_coriander.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_tools.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_tools.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_centella.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_centella.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_marigold.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_marigold.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_corn.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_corn.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_thai_chili.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_thai_chili.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_person_placeholder.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_person_placeholder.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_history.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/color_bottom_nav_item_color.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/color/bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_choy_sum.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_choy_sum.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_refresh_circle.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_refresh_circle.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_pumpkin.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_pumpkin.jpg"
+    },
+    {
+        "merged": "com.farmpulse.app-debug-40:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.farmpulse.app-main-42:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_settings.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/font_sarabun_bold.ttf.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/font/sarabun_bold.ttf"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_bitter_gourd.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_bitter_gourd.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_book.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_holy_basil.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_holy_basil.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_activity_manual.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_manual.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_camera_badge.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_camera_badge.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_flower.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_flower.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_fingerroot.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_fingerroot.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/font_sarabun_regular.ttf.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/font/sarabun_regular.ttf"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/font_sarabun.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/font/sarabun.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_item_fertilizer_schedule.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_fertilizer_schedule.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_vine.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_vine.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_amaranth.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_amaranth.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/color_switch_track_color.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/color/switch_track_color.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_herb.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_herb.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_fertilizer_flask.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_fertilizer_flask.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_lime.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_lime.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_power_plug.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_power_plug.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_pandan.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_pandan.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_activity_onboarding.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_daikon_radish.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_daikon_radish.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_logo_program.png.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/logo_program.png"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_activity_splash.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_fragment_dashboard.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_ginger.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_ginger.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_delete.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_thai_basil.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_thai_basil.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_edit.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_kaffir_lime.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_kaffir_lime.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_avatar_placeholder.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_avatar_placeholder.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_card_rounded.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_card_rounded.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_item_dropdown.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/font_sarabun_medium.ttf.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/font/sarabun_medium.ttf"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_napa_cabbage.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_napa_cabbage.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_galangal.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_galangal.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_dialog_add_fertilizer_schedule.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_add_fertilizer_schedule.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_water_spinach.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_water_spinach.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_back_arrow.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_back_arrow.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_cucumber.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_cucumber.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_sunflower.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_sunflower.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_tree.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_tree.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_wifi_signal.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_wifi_signal.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_item_about_stat.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_about_stat.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_dashboard.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_dashboard.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_dialog_connection_help.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_connection_help.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_shallot.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_shallot.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/anim_fragment_fade_in.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/anim/fragment_fade_in.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_progress_splash.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/progress_splash.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_winged_bean.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_winged_bean.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_thai_eggplant.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_thai_eggplant.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_papaya.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_papaya.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plus.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_item_log.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_log.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_lemon_basil.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_lemon_basil.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_yardlong_bean.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_yardlong_bean.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_pill_solid.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_pill_solid.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_tomato.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_tomato.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_fragment_manual.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_manual.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_angled_luffa.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_angled_luffa.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_fragment_settings.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_logo_cep.png.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/logo_cep.png"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_rose.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_rose.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_item_plant.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/item_plant.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_sprout.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_sprout.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_banana.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_banana.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_orchid.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_orchid.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_cassava.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_cassava.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_root.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_root.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/anim_fragment_fade_out.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/anim/fragment_fade_out.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_fragment_plants.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/fragment_plants.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_splash_gradient.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_splash_gradient.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_logo_mwit.png.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/logo_mwit.png"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/font_sarabun_semibold.ttf.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/font/sarabun_semibold.ttf"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_long_eggplant.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_long_eggplant.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_fruit.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_fruit.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_ic_plant_leafy.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/ic_plant_leafy.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_lemongrass.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_lemongrass.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/layout_dialog_fertilizer_coming_soon.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/layout/dialog_fertilizer_coming_soon.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_turmeric.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_turmeric.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_okra.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_okra.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_wild_betel.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_wild_betel.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_mint.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_mint.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_ivy_gourd.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_ivy_gourd.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_chinese_kale.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_chinese_kale.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_jasmine.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_jasmine.jpg"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable_bg_splash_icon.xml.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable/bg_splash_icon.xml"
+    },
+    {
+        "merged": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-debug-40:/drawable-nodpi_photo_butterfly_pea.jpg.flat",
+        "source": "/Users/cateatmars.p/.gradle/daemon/8.7/com.farmpulse.app-main-42:/drawable-nodpi/photo_butterfly_pea.jpg"
+    }
+]

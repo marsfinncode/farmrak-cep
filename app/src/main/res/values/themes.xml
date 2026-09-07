@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FarmPulse" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/leaf</item>
+        <item name="colorPrimaryDark">@color/leaf_deep</item>
+        <item name="colorAccent">@color/water</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/soil_dark</item>
+        <item name="android:fontFamily">@font/sarabun</item>
+        <item name="fontFamily">@font/sarabun</item>
+    </style>
+
+    <style name="StatusChip">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@color/surface</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.FarmPulse.Splash" parent="Theme.FarmPulse">
+        <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
+        <item name="android:statusBarColor">@color/splash_top</item>
+        <item name="android:navigationBarColor">@color/splash_bottom</item>
+    </style>
+
+    <style name="CircleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#FAF7F1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="ink">#2B2A24</color>
+    <color name="ink_soft">#6B6559</color>
+
+    <color name="soil_dark">#3A2A1B</color>
+    <color name="soil_mid">#5A4530</color>
+
+    <color name="leaf">#4F7A3E</color>
+    <color name="leaf_deep">#3A5C2D</color>
+    <color name="sprout">#8FBC6B</color>
+
+    <color name="water">#3E7C8C</color>
+    <color name="water_light">#6FA8B8</color>
+
+    <color name="amber">#C98A3B</color>
+    <color name="rust">#B84C43</color>
+
+    <color name="line">#E7E1D4</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Style 2 (soft card) tints -->
+    <color name="water_card">#DFEFF3</color>
+    <color name="leaf_card">#E6F0DF</color>
+    <color name="amber_card">#FBEEDA</color>
+    <color name="amber_text">#8A5A18</color>
+    <color name="blossom">#C2588A</color>
+    <color name="blossom_card">#FBE6EF</color>
+
+    <!-- Splash / intro -->
+    <color name="splash_top">#2F4A28</color>
+    <color name="splash_bottom">#223420</color>
+    <color name="splash_icon_bg">#1AFFFFFF</color>
+    <color name="splash_sub_text">#C9D6BE</color>
+    <color name="splash_skip_text">#9AA98D</color>
+    <color name="splash_badge_bg">#1F8FBC6B</color>
+</resources>

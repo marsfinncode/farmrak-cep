@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/surface"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fert_schedule_title"
+        android:textColor="@color/ink"
+        android:fontFamily="@font/sarabun_bold"
+            android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TimePicker
+        android:id="@+id/timePickerFert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fert_duration_label"
+        android:textColor="@color/ink"
+        android:fontFamily="@font/sarabun_semibold"
+        android:textSize="13sp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etFertDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fert_duration_hint"
+        android:inputType="number"
+        android:textColor="@color/ink"
+        android:textColorHint="@color/ink_soft"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelSchedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textColor="@color/ink"
+            android:backgroundTint="@color/paper" />
+
+        <Button
+            android:id="@+id/btnSaveSchedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/save_schedule"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sarabun_semibold"
+            android:textColor="@color/paper"
+            android:backgroundTint="@color/leaf" />
+    </LinearLayout>
+
+</LinearLayout>
