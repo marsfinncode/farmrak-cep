@@ -182,3 +182,4 @@ FarmPulse/                          (ชื่อโฟลเดอร์เด�
 - [ ] ลบไฟล์ `SoilMoistureView.kt`/`PhGaugeView.kt` ที่ไม่ได้ใช้แล้ว (หรือคงไว้ถ้ามีแผนกลับไปใช้ดีไซน์แบบมีหน้าปัด)
 - [ ] เพิ่ม root CA certificate validation ให้ MQTT firmware เดิม (`FarmRak_ESP32/`) ถ้าจะกลับไปใช้เวอร์ชันนั้นในอนาคต (ตอนนี้ใช้ `setInsecure()`)
 # farmrak-cep
+# farmrak-cep
