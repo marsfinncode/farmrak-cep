@@ -185,3 +185,12 @@ FarmPulse/                          (ชื่อโฟลเดอร์เด�
 ภากร วงษ์อรุณ
 
 ผู้พัฒนาระบบฟาร์มรักษ์
+
+<a href="https://mwit.ac.th/" target="_blank">
+ <img src="https://upload.wikimedia.org/wikipedia/th/4/47/Mwit-logo.png?utm_source=th.wikipedia.org&utm_campaign=index&utm_content=original" alt="MWIT logo" width="75" />
+</a>
+
+
+<a href="https://www.mwit.ac.th/html/news_690909-3/" target="_blank">
+  <img src="https://lh3.googleusercontent.com/rd-d/ALs6j_HdlLBmtwEufGWJycPjuygES4DB_u4FXkRbUxPMlbZm_0VBPj2MWJ6asOb0RxtxT6uJ4CZhQTosf1EY4_3yYm5sEaQn1ayfCQTTbCk68HU4GNsUjqLE-19eG9EE4mX7hKIyjCtxIaxq9Bw9YSmixZR2ioRCW6yeKoHmHNarqZFlvnOAYY0BEVDhCAoHvEiZ8wB61Ckq98raqA-kxqckvgDo2e4TcjWD94bV2VksXPeRlXkcP8O4LQ7vwWgFxmHhUB99c2dP1j2cIQPuguqnt5vnWup1RH0OwXoFfqzlc6fUOcmodlyhc9oKSC9gL4-OsLcoY7qKHzi2dSsam8BxFWpBfAski7ba_TnAv1l_nGrlFZ80ygmMd4qpjxrBzgv7iAVu0lIzB5vHohF13BUfXa35jGSOnbeKm2XzitLrtyTOVnHOZJcOIyA6iwMAN-F7BZtwLNyEo70SSr08PAxNCv2i67O6T5zwTV8y2l_si_o86BTaBPA_dr4bgnHV-vChFUnan-vFoWNo2lXfG7oPMiPlF-oeoafiMCQSWEhApt6i4uOCDg7037xEu2_R83Qq2yGjPERDIt9MXKYHgnc-_lzHxJ1domZ_jy2kW34ECto_OXlQeLVZ7vzmEUhdum1B5xdT6xmKEFqRmsAqfb_1AMH85jpyipreaWiKl66PKNipN8K-L0cmpwFpEbcZXLhfWad--wTYxXBHvzgZWgnZzMXjBPU0JikRwdb8YppL9zttKEHI5ucLvYZ1nzpmjqD2XShyvShaj_vFj6tAiNAgs7zsVEwCmL0wmNPq-zwEpxnBtG2Qp-aLArY-8ScwrnsAnG8__YGqYoFJyywyGLuuxlrIx2XqJAQai5p6epmThzIrYQsA9FMhKVFTtPDTeH5StHcXPg6jxB2vbHCofMYeiyz28XmZBhjVwOhcKrXdSqZ1K-wiYhJJQceaIWVe6rxU9f_h-0FXL1bkF-BAFqYxQ8OKBshB60Lc9Lm8l5aKvSLwJxiTFnAeBEh5z2VKbAOIfH50kXDVUDnj6ZU8C9PynB_8yGFqaju2VPD4tPYq_YP2nI36dhKfMwclWliSW77jR_e3rL9fe8MyST_LHdVxvWbpliorhrAmG0_yc5x1sw7WEvWVqXaqOYKiXchH-Vm-2Spgg7ta9oBTgGK5nMunNbrIkToPmAVT4n6EUd8ZpW0HX3DoSkruk2L8hTXSSk0WqCdPPsly5IyNn3xoUX3VwOgKHaULkfOxjQQ8gWgwQkm2-TFke856GbM6gA=w2940-h1678?auditContext=prefetch" alt="Community Engagement Program: CEP Year 2" width="80">
+</a>
